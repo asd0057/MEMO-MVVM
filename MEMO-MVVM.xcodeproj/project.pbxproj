@@ -16,6 +16,7 @@
 		DE698B3725E23FDD00F4E1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE698B3625E23FDD00F4E1CE /* Assets.xcassets */; };
 		DE698B3A25E23FDD00F4E1CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE698B3825E23FDD00F4E1CE /* LaunchScreen.storyboard */; };
 		DE698B4525E23FDD00F4E1CE /* MEMO_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE698B4425E23FDD00F4E1CE /* MEMO_MVVMTests.swift */; };
+		DE698B5525E2439A00F4E1CE /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE698B5425E2439A00F4E1CE /* Memo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		DE698B4025E23FDD00F4E1CE /* MEMO-MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MEMO-MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE698B4425E23FDD00F4E1CE /* MEMO_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEMO_MVVMTests.swift; sourceTree = "<group>"; };
 		DE698B4625E23FDD00F4E1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE698B5425E2439A00F4E1CE /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		DE698B5025E242A400F4E1CE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DE698B5425E2439A00F4E1CE /* Memo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				DE698B3525E23FDC00F4E1CE /* MEMO_MVVM.xcdatamodeld in Sources */,
 				DE698B2B25E23FDC00F4E1CE /* AppDelegate.swift in Sources */,
 				DE698B2D25E23FDC00F4E1CE /* SceneDelegate.swift in Sources */,
+				DE698B5525E2439A00F4E1CE /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
