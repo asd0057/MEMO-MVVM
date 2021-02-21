@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,6 @@
 		DD4E1BCA66F87383C581A111 /* Pods_MEMO_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C0D7A3B62610A59B37C392 /* Pods_MEMO_MVVM.framework */; };
 		DE698B2B25E23FDC00F4E1CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE698B2A25E23FDC00F4E1CE /* AppDelegate.swift */; };
 		DE698B2D25E23FDC00F4E1CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE698B2C25E23FDC00F4E1CE /* SceneDelegate.swift */; };
-		DE698B2F25E23FDC00F4E1CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE698B2E25E23FDC00F4E1CE /* ViewController.swift */; };
 		DE698B3225E23FDC00F4E1CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE698B3025E23FDC00F4E1CE /* Main.storyboard */; };
 		DE698B3525E23FDC00F4E1CE /* MEMO_MVVM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE698B3325E23FDC00F4E1CE /* MEMO_MVVM.xcdatamodeld */; };
 		DE698B3725E23FDD00F4E1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE698B3625E23FDD00F4E1CE /* Assets.xcassets */; };
@@ -39,7 +38,6 @@
 		DE698B2725E23FDC00F4E1CE /* MEMO-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MEMO-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE698B2A25E23FDC00F4E1CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE698B2C25E23FDC00F4E1CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE698B2E25E23FDC00F4E1CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE698B3125E23FDC00F4E1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE698B3425E23FDC00F4E1CE /* MEMO_MVVM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MEMO_MVVM.xcdatamodel; sourceTree = "<group>"; };
 		DE698B3625E23FDD00F4E1CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 				4D60536DE06D7136D9DDA6EA /* Pods-MEMO-MVVMTests.debug.xcconfig */,
 				B34E3C47255538145CC58478 /* Pods-MEMO-MVVMTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,12 +111,14 @@
 		DE698B2925E23FDC00F4E1CE /* MEMO-MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				DE698B5325E242D600F4E1CE /* Scene */,
+				DE698B5225E242C700F4E1CE /* Service */,
+				DE698B5125E242A900F4E1CE /* ViewModel */,
+				DE698B5025E242A400F4E1CE /* Model */,
+				DE698B4F25E2429B00F4E1CE /* ViewController */,
 				DE698B2A25E23FDC00F4E1CE /* AppDelegate.swift */,
 				DE698B2C25E23FDC00F4E1CE /* SceneDelegate.swift */,
-				DE698B2E25E23FDC00F4E1CE /* ViewController.swift */,
-				DE698B3025E23FDC00F4E1CE /* Main.storyboard */,
 				DE698B3625E23FDD00F4E1CE /* Assets.xcassets */,
-				DE698B3825E23FDD00F4E1CE /* LaunchScreen.storyboard */,
 				DE698B3B25E23FDD00F4E1CE /* Info.plist */,
 				DE698B3325E23FDC00F4E1CE /* MEMO_MVVM.xcdatamodeld */,
 			);
@@ -133,6 +132,43 @@
 				DE698B4625E23FDD00F4E1CE /* Info.plist */,
 			);
 			path = "MEMO-MVVMTests";
+			sourceTree = "<group>";
+		};
+		DE698B4F25E2429B00F4E1CE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE698B3025E23FDC00F4E1CE /* Main.storyboard */,
+				DE698B3825E23FDD00F4E1CE /* LaunchScreen.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DE698B5025E242A400F4E1CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE698B5125E242A900F4E1CE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE698B5225E242C700F4E1CE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DE698B5325E242D600F4E1CE /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,7 +339,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE698B2F25E23FDC00F4E1CE /* ViewController.swift in Sources */,
 				DE698B3525E23FDC00F4E1CE /* MEMO_MVVM.xcdatamodeld in Sources */,
 				DE698B2B25E23FDC00F4E1CE /* AppDelegate.swift in Sources */,
 				DE698B2D25E23FDC00F4E1CE /* SceneDelegate.swift in Sources */,
